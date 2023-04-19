@@ -1,0 +1,8 @@
+:root {
+    --color-white: #fff;
+    --dark-text-color: #414141;
+    --grey-text-color: #6B6B6B;
+    --button-border-color: #E88300;
+    --list-item-border-color: #D4D4D4;
+    --min-button-width: 120px;
+}

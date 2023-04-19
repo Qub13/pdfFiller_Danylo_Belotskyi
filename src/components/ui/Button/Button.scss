@@ -1,0 +1,38 @@
+.button {
+  min-height: 32px;
+  min-width: var(--min-button-width);
+  width: 100%;
+  padding: 8px 12px;
+
+  font-weight: 700;
+  text-align: center;
+
+  color: var(--color-white);
+  background: linear-gradient(180deg, #FFAE45 0%, var(--button-border-color) 100%), var(--button-border-color);
+  border: 1px solid var(--button-border-color);
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  transition: all .3s ease;
+
+  @media (hover: hover) {
+    &:hover {
+      background: #FFA42E;
+    }
+  }
+
+  &:active {
+    background: linear-gradient(180deg, var(--button-border-color) 0%, #FFAE45 100%);
+  }
+
+  &:disabled {
+    background: #FFD8A5;
+    cursor: default;
+  }
+
+  &:focus {
+    background: #FFA42E;
+    box-shadow: 0 0 4px #E88300;
+  }
+}

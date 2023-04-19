@@ -1,0 +1,27 @@
+@import "_reset.css";
+@import "fonts/Arial/stylesheet.css";
+
+body {
+  min-height: 100vh;
+  min-width: 360px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.App {
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+}
